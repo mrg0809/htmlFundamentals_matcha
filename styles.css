@@ -13,6 +13,11 @@ h4 {
 button {
 color: #fff;
 background-color: #025157;
+margin-left: -10px;
+height: 40px;
 }
 
+form {
+    text-align: center;
+}
 

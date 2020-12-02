@@ -11,7 +11,11 @@ body {
 h1 {
     color: #025157;
     text-align: center;
+    margin-bottom: 24px;
+    font-family: "Alegreya", serif;
+    font-size: 50px;
 }
+
 h4 {
     color: #46484c;
     text-align: center;
@@ -20,7 +24,10 @@ button {
 color: #fff;
 background-color: #025157;
 margin-left: -10px;
-height: 40px;
+height: 41px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+padding: 6px 20px;
 }
 
 form {

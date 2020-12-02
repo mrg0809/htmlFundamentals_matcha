@@ -6,6 +6,7 @@
 
 body {
     background-color:#fffbf7;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
     text-align: center;
     margin-bottom: 24px;
     font-family: "Alegreya", serif;
+    font-weight: 900;
     font-size: 50px;
 }
 
@@ -21,13 +23,12 @@ h4 {
     text-align: center;
 }
 button {
-color: #fff;
-background-color: #025157;
-margin-left: -10px;
-height: 41px;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-padding: 6px 20px;
+    color: #fff;
+    background-color: #025157;
+    margin-left: -10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 6px 20px;
 }
 
 form {
@@ -39,9 +40,7 @@ p {
 }
 
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 40px 20px 0 20px;
     font-size: 0;
     height: 45px;
     font-family: sans-serif;
@@ -56,7 +55,7 @@ p {
 }
 
 .logo {
-    width: 15%;
+    width: 20%;
 }
 
 .logo > img {
@@ -64,14 +63,14 @@ p {
 }
 
 .navbar {
-    width: 70%;
+    width: 60%;
     text-align: center;
     color: #025157;
     font-weight: 500;
 }
 
 .actions {
-    width: 15%;
+    width: 20%;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -89,14 +88,15 @@ p {
 .actions button {
     color: white;
     background-color: #67b54b;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 12px 14px;
     border: 0;
     border-radius: 5px;
 }
 
-li {
+.header nav li {
       display: inline;
+}
+
+img {
+    vertical-align: center;
 }

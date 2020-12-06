@@ -1,125 +1,169 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    background-color:#fffbf7;
-    font-family: "Open Sans", sans-serif;
-}
-
-h1 {
+  }
+  .main {
+    margin-top: 140px;
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  .main h1 {
     color: #025157;
+    font-weight: bold;
     text-align: center;
-    margin-bottom: 24px;
+    font-size: 60px;
     font-family: "Alegreya", serif;
-    font-weight: 900;
-    font-size: 50px;
-}
-
-h4 {
-    color: #46484c;
+  }
+  .main form {
     text-align: center;
-}
-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .texto_centrado {
+    text-align: center;
+    color: #46484c;
+    margin: 15px 0;
+  }
+  .main button {
     color: #fff;
     background-color: #025157;
-    margin-left: -10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 6px 20px;
-}
-
-form {
+    height: 45px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+  }
+  .main input {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 45px;
+    margin-right: -5px;
+    border: 1px solid #c6c6c6;
+    padding: 0 5px;
+  }
+  .main .banner {
+    margin-top: 25px;
     text-align: center;
-}
-
-p {
+  }
+  .main .second_banner {
+    margin-top: 25px;
     text-align: center;
-}
-
-.header {
-    margin: 40px 20px 0 20px;
+  }
+  .main .second_banner img {
+    width: 60%;
+  }
+  .main .grey-text {
+    color: #a6a6a6;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .header {
+    margin: 40px 20px 150px 20px;
     font-size: 0;
+    text-align: center;
     height: 45px;
     font-family: sans-serif;
-}
-
-.header > * {
+  }
+  .header > * {
     display: inline-block;
     font-size: 16px;
     vertical-align: middle;
     height: 100%;
     line-height: 45px;
-}
-
-.logo {
+  }
+  .menu-item {
+    display: inline;
+    margin: 0 25px;
+  }
+  .logo {
     width: 20%;
-}
-
-.logo > img {
     height: 100%;
-}
-
-.navbar {
+  }
+  .logo > img {
+    height: 100%;
+  }
+  .navbar {
     width: 60%;
     text-align: center;
     color: #025157;
     font-weight: 500;
-}
-
-.actions {
+  }
+  .actions {
     width: 20%;
-    text-align: center;
+    text-align: right;
     font-size: 14px;
     font-weight: 600;
-}
-
-.actions > * {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.actions a {
+  }
+  .actions > * {
+     margin: 0 10px;
+  }
+  .actions > a {
     color: #67b54b;
-}
-
-.actions button {
-    color: white;
-    background-color: #67b54b;
+  }
+  .actions > button {
+    color: #fff;
+    background-color: #67b567;
     padding: 12px 14px;
-    border: 0;
     border-radius: 5px;
-}
+    font-weight: 600;
+    border: none;
+  }
+  .texto_centrado {
+    text-align: center;
+    color: #46484c;
+  }
 
-.header nav li {
-      display: inline;
-}
-
-img {
-    vertical-align: center;
-}
-
-.publish h3 {
+  .publish h3 {
     font-family: 'Alegreya', serif;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
   }
-
   .publish > p {
     font-size: 16px;
     color: #343434;
     line-height: 1.5;
     margin-bottom: 20px;
   }
-
   .publish > form {
     display: flex;
   }
-
   .publish > form p {
     color: #025157;
     margin-right: 18px;
+    flex: 1;
   }
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: flex-start;
+  }
+  .publish > form button {
+    color: #fff;
+    background-color: #025157;
+    height: 45px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+    padding: 5px;
+  }
+  .publish > form input {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    height: 45px;
+    margin-right: -5px;
+    border: 1px solid #c6c6c6;
+    padding: 0 5px;
+  }
+.explanatory-video{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.explanatory-video img{
+    width: 120px;
+    margin-top: 10px;
+}

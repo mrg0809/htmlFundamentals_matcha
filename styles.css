@@ -133,7 +133,7 @@
 .publish > form p {
     color: #025157;
     margin-right: 18px;
-    
+
 }
 .promo {
     display: flex;
@@ -224,4 +224,37 @@ figure {
 .success-stories .overview img {
   width: 500px;
   max-width: 100%;
+}
+.features {
+  display: grid;
+  height: 660px;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  background-color: #025157;
+  padding: 5% 10%;
+}
+.feature-card {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.feature-content{
+  flex: 2;
+  padding: 30px 20px 40px 40px;
+}
+.feature-image img{
+  flex: 1;
+  position: relative;
+  width: 40%;
+  height: 80%;
+  right: -50px;
+}
+.feature-content > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
 }

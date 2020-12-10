@@ -243,11 +243,11 @@ figure {
   align-items: center;
   overflow: hidden;
 }
-.feature-content{
+.features .feature-card .feature-content{
   flex: 2;
   padding: 30px 20px 40px 40px;
 }
-.feature-image img{
+.feature-image{
   flex: 1;
   position: relative;
   width: 40%;
@@ -258,3 +258,59 @@ figure {
   margin-bottom: 1rem;
   margin-top: 0;
 }
+.feature-content h3{
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+}
+.feature-content p{
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+.feature-content a{
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+.feature-content img{
+  width: 50px;
+}
+.feature-image img,
+.feature-image figure{
+margin-top: 0;
+height: 100%;
+}
+.company{
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company img{
+  max-width: 75%;
+}
+.card-body{
+  padding: 25px;
+}
+.card-body h4{
+  color: #025157;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.card-body h3{
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+

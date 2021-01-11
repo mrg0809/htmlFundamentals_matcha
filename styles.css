@@ -488,6 +488,7 @@ border: 2px solid #025157;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
 
 .success-stories .stories-carousel .card .card-circle-everly {
@@ -500,6 +501,56 @@ border: 2px solid #025157;
   overflow: hidden;
   background-color: #f9da73;
   background-image: url('https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+  border: 5px solid #f9da73;
+}
+
+.success-stories .stories-carousel .card .sea {
+  background-image: url('https://getmatcha.com/wp-content/uploads/2019/08/0.jpg');
+  height: 275px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.success-stories .stories-carousel .card .card-circle-sea {
+  position: absolute;
+  bottom: 255px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f9da73;
+  background-image: url('https://getmatcha.com/wp-content/uploads/2019/08/SeatoSummitLogo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5px;
+  border: 5px solid #f9da73;
+}
+
+.success-stories .stories-carousel .card .mambe {
+  background-image: url('https://getmatcha.com/wp-content/uploads/2019/06/matt-and-margaret_headshot.png');
+  height: 275px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.success-stories .stories-carousel .card .card-circle-mambe {
+  position: absolute;
+  bottom: 255px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f9da73;
+  background-image: url('https://getmatcha.com/wp-content/uploads/2019/06/mambe-logo-1.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
